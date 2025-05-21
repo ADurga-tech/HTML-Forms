@@ -1,0 +1,123 @@
+
+*{
+    @import url('https://fonts.cdnfonts.com/css/google-sans');
+    font-family: 'Product Sans Medium', sans-serif;
+}
+body{
+    background: #23cf2f;
+    background: linear-gradient(90deg, rgba(35, 207, 47, 0.76) 0%, rgba(39, 39, 176, 0.74) 35%, rgba(156, 23, 123, 0.65) 100%);
+    
+}
+#head:hover{
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+background-clip: text;
+color:transparent;
+}
+#head1{
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+
+}
+
+form{
+    width:500px;
+}
+fieldset{
+    border: 5px solid blue;
+    border-radius: 20px;
+}
+input:required{
+    border: 2px solid red;
+}
+input:optional{
+    border: 3px dashed rgb(54, 85, 8);
+}
+input:read-only{
+    background-color: aqua;
+    color:blue;
+}
+input[type="radio"]:checked{
+    height: 20px;
+    width:20px;
+}
+input[type="radio"]:checked+label{
+    color: chartreuse;
+}
+input[type="submit"]{
+    border: 3px solid rgb(9, 17, 88);
+    border-radius: 15px;;
+}
+input[type="reset"]{
+    border: 3px solid rgb(9, 17, 88);
+    border-radius: 15px;;
+}
+select{
+    background-color: blueviolet;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type="radio"]{
+    cursor: pointer;
+} 
+input:focus{
+    background-color: rgb(139, 199, 0);
+}
+input[type="text"]+p{
+    display:none;
+}
+input[type="text"]:hover+p{
+    display:inline;
+    color:greenyellow;
+}
+input[type="text"]+p{
+    display:none;
+}
+input[type="text"]:hover+p{
+    display:inline;
+    color:greenyellow;
+}
+input[type="tel"]+p{
+    display:none;
+}
+input[type="tel"]:hover+p{
+    display:inline;
+    color:greenyellow;
+}
+
+input[type="password"]+p{
+    display:none;
+}
+input[type="password"]:hover+p{
+    display:inline;
+    color:greenyellow;
+}
+input[type="email"]+p{
+    display:none;
+}
+input[type="email"]:hover+p{
+    display:inline;
+    color:greenyellow;
+}
+input[type="date"]+p{
+    display:none;
+}
+input[type="date"]:hover+p{
+    display:inline;
+    color:greenyellow;
+}
+
+img{
+    display: none;
+}
+input[type="email"]:focus:valid~img#valid{
+    display: inline;
+    height: 20px;
+    width: 20px;
+}
+input[type="email"]:focus:invalid~img#invalid{
+    display: inline;
+    height: 20px;
+    width: 20px;
+}
+
